@@ -63,7 +63,7 @@ def load_settings():
             log_message("Read settings from 'settings.json'.")
     except FileNotFoundError:
         default_settings = {
-            "creation_directory": "./Test/",
+            "creation_directory": "./.test/",
             "template_path": "./template.yml",
             "csv_path": "./variables.csv"
         }

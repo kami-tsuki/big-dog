@@ -6,8 +6,8 @@
 *.iml
 out
 gen
-!/variables.csv
+!/.past/company/variables.csv
 
-!/template.yml
+!/.past/company/template.yml
 
 !/settings.json

@@ -1,0 +1,9 @@
+01-Feb-24 18:51:55 - Logger setup complete.
+01-Feb-24 18:51:55 - Program started.
+01-Feb-24 18:51:55 - Read settings from 'settings.json'.
+01-Feb-24 18:51:55 - Read template from './template.yml'.
+01-Feb-24 18:51:55 - Read 6 rows and 5 columns from './variables.csv'.
+01-Feb-24 18:51:55 - Folder 'Releases' created successfully in './Test/company4\Customer'.
+01-Feb-24 18:51:55 - Folder 'WIP' created successfully in './Test/company4\Customer\Releases'.
+01-Feb-24 18:51:55 - Folder 'Documentations' created successfully in './Test/company4\Customer\Releases'.
+01-Feb-24 18:51:55 - Program finished. Created 3 folders. Execution time: 0.02260303497314453 seconds.

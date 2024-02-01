@@ -13,6 +13,7 @@
 
 folder2:
   name: $(foldername=company)
+# hidden: $(data=PartyId)
   folder1:
     name: Lead
     condition: $(condition=lead)
@@ -31,15 +32,23 @@ folder2:
       name: Protocols
     folder3:
       name: Releases
+#     name: Release-$(now&date=YYYY-MM-DD)
       condition: $(condition=release)
       folder1:
         name: WIP
       folder2:
         name: Documentations
+#   folder4:
+#     name: Project
+#     multiply: $(multiply=project)
   folder3:
     name: Supplier
     condition: $(condition=supplier)
     folder1:
       name: Documents
+#     file1:
+#       name: $(filename=contract)               # IDEA
+#       path: ./$(foldername=company)/$(foldername=customer)/$(foldername=supplier)/$(filename=contract).docx
+#       condition: $(condition=contract)
     folder2:
       name: Protocols

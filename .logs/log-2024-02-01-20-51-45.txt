@@ -1,0 +1,15 @@
+01-Feb-24 20:51:45 - Logger setup complete.
+01-Feb-24 20:51:45 - Program started.
+01-Feb-24 20:51:45 - Read settings from 'settings.json'.
+01-Feb-24 20:51:45 - Read template from '.past/projects/template.yml'.
+01-Feb-24 20:51:45 - Read 3 rows and 4 columns from '.past/projects/variables.csv'.
+01-Feb-24 20:51:45 - Folder 'LShop' created successfully in './past/projects/.test/'.
+01-Feb-24 20:51:45 - Folder 'Documentations' created successfully in './past/projects/.test/LShop'.
+01-Feb-24 20:51:45 - Folder 'Customer' created successfully in './past/projects/.test/LShop'.
+01-Feb-24 20:51:45 - Folder 'Documentations' created successfully in './past/projects/.test/LShop\Customer'.
+01-Feb-24 20:51:45 - Folder 'ArticleImageImporter' created successfully in './past/projects/.test/'.
+01-Feb-24 20:51:45 - Folder 'Documentations' created successfully in './past/projects/.test/ArticleImageImporter'.
+01-Feb-24 20:51:45 - Folder 'Releases' created successfully in './past/projects/.test/ArticleImageImporter'.
+01-Feb-24 20:51:45 - Folder 'AirFunction' created successfully in './past/projects/.test/'.
+01-Feb-24 20:51:45 - Folder 'Documentations' created successfully in './past/projects/.test/AirFunction'.
+01-Feb-24 20:51:45 - Program finished. Created 9 folders. Execution time: 0.024873018264770508 seconds.

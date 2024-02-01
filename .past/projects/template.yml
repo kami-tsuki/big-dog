@@ -1,0 +1,17 @@
+folder1:
+  name: $(foldername=project)
+  folder1:
+    name: Documentations
+    condition: $(condition=documentations)
+  folder2:
+    name: Releases
+    condition: $(condition=executable)
+  folder3:
+    name: Customer
+    condition: $(condition=customer)
+    folder1:
+      name: Documentations
+      condition: $(condition=documentations)
+    folder2:
+      name: Releases
+      condition: $(condition=executable)

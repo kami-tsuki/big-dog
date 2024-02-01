@@ -1,0 +1,16 @@
+01-Feb-24 19:11:09 - Logger setup complete.
+01-Feb-24 19:11:09 - Program started.
+01-Feb-24 19:11:09 - Read settings from 'settings.json'.
+01-Feb-24 19:11:09 - Read template from './template.yml'.
+01-Feb-24 19:11:09 - Read 9 rows and 5 columns from './variables.csv'.
+01-Feb-24 19:11:09 - Folder 'company7' created successfully in './Test/'.
+01-Feb-24 19:11:09 - Folder 'company8' created successfully in './Test/'.
+01-Feb-24 19:11:09 - Folder 'Lead' created successfully in './Test/company8'.
+01-Feb-24 19:11:09 - Folder 'Opportunities' created successfully in './Test/company8\Lead'.
+01-Feb-24 19:11:09 - Folder 'Documents' created successfully in './Test/company8\Lead'.
+01-Feb-24 19:11:09 - Folder 'Protocols' created successfully in './Test/company8\Lead'.
+01-Feb-24 19:11:09 - Folder 'Supplier' created successfully in './Test/company8'.
+01-Feb-24 19:11:09 - Folder 'Documents' created successfully in './Test/company8\Supplier'.
+01-Feb-24 19:11:09 - Folder 'Protocols' created successfully in './Test/company8\Supplier'.
+01-Feb-24 19:11:09 - Folder 'company9' created successfully in './Test/'.
+01-Feb-24 19:11:09 - Program finished. Created 10 folders. Execution time: 0.028432130813598633 seconds.
