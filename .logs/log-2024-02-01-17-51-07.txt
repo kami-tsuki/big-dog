@@ -1,0 +1,6 @@
+01-Feb-24 17:51:07 - Logger setup complete.
+01-Feb-24 17:51:07 - Program started.
+01-Feb-24 17:51:07 - Read settings from 'settings.json'.
+01-Feb-24 17:51:07 - Read template from './template.yml'.
+01-Feb-24 17:51:07 - Read variables from './variables.csv'.
+01-Feb-24 17:51:35 - Program finished. Created 0 folders. Execution time: 28.039923191070557 seconds.

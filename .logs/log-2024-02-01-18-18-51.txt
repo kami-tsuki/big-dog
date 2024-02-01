@@ -1,0 +1,8 @@
+01-Feb-24 18:18:51 - Logger setup complete.
+01-Feb-24 18:18:51 - Program started.
+01-Feb-24 18:18:51 - Read settings from 'settings.json'.
+01-Feb-24 18:18:51 - Read template from './template.yml'.
+01-Feb-24 18:18:51 - Read 1 rows and 2 columns from './variables.csv'.
+01-Feb-24 18:18:51 - CSV file is missing columns: {'release', 'customer'}
+01-Feb-24 18:18:51 - CSV file has extra columns: {'release (condition)', 'customer (foldername)'}
+01-Feb-24 18:18:51 - Program finished. Created 0 folders. Execution time: 0.012570381164550781 seconds.

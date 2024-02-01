@@ -1,0 +1,20 @@
+01-Feb-24 18:28:06 - Logger setup complete.
+01-Feb-24 18:28:06 - Program started.
+01-Feb-24 18:28:06 - Read settings from 'settings.json'.
+01-Feb-24 18:28:06 - Read template from './template.yml'.
+01-Feb-24 18:28:06 - Read 4 rows and 2 columns from './variables.csv'.
+01-Feb-24 18:28:06 - Folder ' Customer' created successfully in './Test/'.
+01-Feb-24 18:28:06 - Folder 'Documentations' created successfully in './Test/ Customer'.
+01-Feb-24 18:28:06 - Folder 'WIP' created successfully in './Test/ Customer\Documentations'.
+01-Feb-24 18:28:06 - Folder 'Releases' created successfully in './Test/ Customer'.
+01-Feb-24 18:28:06 - Folder ' Dönerladen' created successfully in './Test/'.
+01-Feb-24 18:28:06 - Folder 'Documentations' created successfully in './Test/ Dönerladen'.
+01-Feb-24 18:28:06 - Folder 'WIP' created successfully in './Test/ Dönerladen\Documentations'.
+01-Feb-24 18:28:06 - Folder ' navaya' created successfully in './Test/'.
+01-Feb-24 18:28:06 - Folder 'Documentations' created successfully in './Test/ navaya'.
+01-Feb-24 18:28:06 - Folder 'WIP' created successfully in './Test/ navaya\Documentations'.
+01-Feb-24 18:28:06 - Folder 'Releases' created successfully in './Test/ navaya'.
+01-Feb-24 18:28:06 - Folder ' kami' created successfully in './Test/'.
+01-Feb-24 18:28:06 - Folder 'Documentations' created successfully in './Test/ kami'.
+01-Feb-24 18:28:06 - Folder 'WIP' created successfully in './Test/ kami\Documentations'.
+01-Feb-24 18:28:06 - Program finished. Created 14 folders. Execution time: 0.024621963500976562 seconds.

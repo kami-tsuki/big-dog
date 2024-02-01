@@ -1,0 +1,59 @@
+01-Feb-24 18:38:44 - Logger setup complete.
+01-Feb-24 18:38:44 - Program started.
+01-Feb-24 18:38:44 - Read settings from 'settings.json'.
+01-Feb-24 18:38:44 - Read template from './template.yml'.
+01-Feb-24 18:38:44 - Read 5 rows and 5 columns from './variables.csv'.
+01-Feb-24 18:38:44 - Folder 'company1' created successfully in './Test/'.
+01-Feb-24 18:38:44 - Folder 'Lead' created successfully in './Test/company1'.
+01-Feb-24 18:38:44 - Folder 'Opportunities' created successfully in './Test/company1\Lead'.
+01-Feb-24 18:38:44 - Folder 'Documents' created successfully in './Test/company1\Lead'.
+01-Feb-24 18:38:44 - Folder 'Protocols' created successfully in './Test/company1\Lead'.
+01-Feb-24 18:38:44 - Folder 'Customer' created successfully in './Test/company1'.
+01-Feb-24 18:38:44 - Folder 'Documents' created successfully in './Test/company1\Customer'.
+01-Feb-24 18:38:44 - Folder 'Protocols' created successfully in './Test/company1\Customer'.
+01-Feb-24 18:38:44 - Folder 'Releases' created successfully in './Test/company1\Customer'.
+01-Feb-24 18:38:44 - Folder 'WIP' created successfully in './Test/company1\Customer\Releases'.
+01-Feb-24 18:38:44 - Folder 'Documentations' created successfully in './Test/company1\Customer\Releases'.
+01-Feb-24 18:38:44 - Folder 'Supplier' created successfully in './Test/company1'.
+01-Feb-24 18:38:44 - Folder 'Documents' created successfully in './Test/company1\Supplier'.
+01-Feb-24 18:38:44 - Folder 'Protocols' created successfully in './Test/company1\Supplier'.
+01-Feb-24 18:38:44 - Folder 'company2' created successfully in './Test/'.
+01-Feb-24 18:38:44 - Folder 'Lead' created successfully in './Test/company2'.
+01-Feb-24 18:38:44 - Folder 'Opportunities' created successfully in './Test/company2\Lead'.
+01-Feb-24 18:38:44 - Folder 'Documents' created successfully in './Test/company2\Lead'.
+01-Feb-24 18:38:44 - Folder 'Protocols' created successfully in './Test/company2\Lead'.
+01-Feb-24 18:38:44 - Folder 'Customer' created successfully in './Test/company2'.
+01-Feb-24 18:38:44 - Folder 'Documents' created successfully in './Test/company2\Customer'.
+01-Feb-24 18:38:44 - Folder 'Protocols' created successfully in './Test/company2\Customer'.
+01-Feb-24 18:38:44 - Folder 'Releases' created successfully in './Test/company2\Customer'.
+01-Feb-24 18:38:44 - Folder 'WIP' created successfully in './Test/company2\Customer\Releases'.
+01-Feb-24 18:38:44 - Folder 'Documentations' created successfully in './Test/company2\Customer\Releases'.
+01-Feb-24 18:38:44 - Folder 'company3' created successfully in './Test/'.
+01-Feb-24 18:38:44 - Folder 'Customer' created successfully in './Test/company3'.
+01-Feb-24 18:38:44 - Folder 'Documents' created successfully in './Test/company3\Customer'.
+01-Feb-24 18:38:44 - Folder 'Protocols' created successfully in './Test/company3\Customer'.
+01-Feb-24 18:38:44 - Folder 'Releases' created successfully in './Test/company3\Customer'.
+01-Feb-24 18:38:44 - Folder 'WIP' created successfully in './Test/company3\Customer\Releases'.
+01-Feb-24 18:38:44 - Folder 'Documentations' created successfully in './Test/company3\Customer\Releases'.
+01-Feb-24 18:38:44 - Folder 'Supplier' created successfully in './Test/company3'.
+01-Feb-24 18:38:44 - Folder 'Documents' created successfully in './Test/company3\Supplier'.
+01-Feb-24 18:38:44 - Folder 'Protocols' created successfully in './Test/company3\Supplier'.
+01-Feb-24 18:38:44 - Folder 'company4' created successfully in './Test/'.
+01-Feb-24 18:38:44 - Folder 'Lead' created successfully in './Test/company4'.
+01-Feb-24 18:38:44 - Folder 'Opportunities' created successfully in './Test/company4\Lead'.
+01-Feb-24 18:38:44 - Folder 'Documents' created successfully in './Test/company4\Lead'.
+01-Feb-24 18:38:44 - Folder 'Protocols' created successfully in './Test/company4\Lead'.
+01-Feb-24 18:38:44 - Folder 'Customer' created successfully in './Test/company4'.
+01-Feb-24 18:38:44 - Folder 'Documents' created successfully in './Test/company4\Customer'.
+01-Feb-24 18:38:44 - Folder 'Protocols' created successfully in './Test/company4\Customer'.
+01-Feb-24 18:38:44 - Folder 'Supplier' created successfully in './Test/company4'.
+01-Feb-24 18:38:44 - Folder 'Documents' created successfully in './Test/company4\Supplier'.
+01-Feb-24 18:38:44 - Folder 'Protocols' created successfully in './Test/company4\Supplier'.
+01-Feb-24 18:38:44 - Folder 'company5' created successfully in './Test/'.
+01-Feb-24 18:38:44 - Folder 'Customer' created successfully in './Test/company5'.
+01-Feb-24 18:38:44 - Folder 'Documents' created successfully in './Test/company5\Customer'.
+01-Feb-24 18:38:44 - Folder 'Protocols' created successfully in './Test/company5\Customer'.
+01-Feb-24 18:38:44 - Folder 'Releases' created successfully in './Test/company5\Customer'.
+01-Feb-24 18:38:44 - Folder 'WIP' created successfully in './Test/company5\Customer\Releases'.
+01-Feb-24 18:38:44 - Folder 'Documentations' created successfully in './Test/company5\Customer\Releases'.
+01-Feb-24 18:38:44 - Program finished. Created 53 folders. Execution time: 0.05218911170959473 seconds.

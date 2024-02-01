@@ -1,0 +1,6 @@
+01-Feb-24 17:47:19 - Logger setup complete.
+01-Feb-24 17:47:19 - Program started.
+01-Feb-24 17:47:19 - Created default 'settings.json'.
+01-Feb-24 17:47:19 - Created default template at './template/template.yml'.
+01-Feb-24 17:47:19 - Created default variables at './template/variables.csv'.
+01-Feb-24 17:47:19 - Program finished. Created 0 folders. Execution time: 0.0072667598724365234 seconds.
