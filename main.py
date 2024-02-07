@@ -36,18 +36,22 @@ def create_folder_structure(parent_directory, structure, variables):
             new_folder_name = new_folder_name.replace('$(foldername=', '{').replace(')', '}')
             keys = re.findall(r'{(\w+)}', new_folder_name)
             if not all(key in variables for key in keys):
-                log_message(f"Missing values for {', '.join(key for key in keys if key not in variables)} in variables.")
+                log_message(
+                    f"Missing values for {', '.join(key for key in keys if key not in variables)} in variables.")
                 continue
             new_folder_name = new_folder_name.format(**variables)
+            new_folder_name = new_folder_name.replace('/', '\\').strip()
             condition = value.get('condition')
             if condition:
                 condition = condition.replace('$(condition=', '{').replace(')', '}')
                 condition = condition.format(**variables)
-                if str(condition).lower() not in ['true', '1']:
+                con = str(condition).lower()
+                if con not in ['true', '1', "1"]:
+                    log_message(f"Condition '{condition}' not met for folder '{new_folder_name}'.")
                     continue
             new_path = os.path.join(parent_directory, new_folder_name)
             if not os.path.exists(new_path):
-                os.makedirs(new_path)
+                os.makedirs(new_path, exist_ok=True)
                 log_message(f"Folder '{new_folder_name}' created successfully in '{parent_directory}'.")
                 folder_count += 1
             sub_structure = {k: v for k, v in value.items() if k.startswith('folder')}
@@ -129,7 +133,8 @@ def load_csv(csv_path, template):
             reader = csv.DictReader(f)
             rows = [row for row in reader]
             log_message(f"Read {len(rows)} rows and {len(rows[0]) if rows else 0} columns from '{csv_path}'.")
-            missing_columns = set(var[0] for var in variables) - set(rows[0].keys()) if rows else set(var[0] for var in variables)
+            missing_columns = set(var[0] for var in variables) - set(rows[0].keys()) if rows else set(
+                var[0] for var in variables)
             extra_columns = set(rows[0].keys()) - set(var[0] for var in variables) if rows else set()
             if missing_columns:
                 log_message(f"CSV file is missing columns: {missing_columns}")
@@ -155,8 +160,7 @@ def execute():
     for row in rows:
         total_folders_created += create_folder_structure(creation_directory, template, row)
     end_time = time.time()
-    log_message(
-        f"Program finished. Created {total_folders_created} folders. Execution time: {end_time - start_time} seconds.")
+    log_message(f"Program finished. Created {total_folders_created} folders. Execution time: {end_time - start_time} seconds.")
 
 
 if __name__ == "__main__":
