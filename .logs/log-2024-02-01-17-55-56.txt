@@ -1,4 +1,0 @@
-01-Feb-24 17:55:56 - Logger setup complete.
-01-Feb-24 17:55:56 - Program started.
-01-Feb-24 17:55:56 - Read settings from 'settings.json'.
-01-Feb-24 17:55:56 - Read template from './template.yml'.

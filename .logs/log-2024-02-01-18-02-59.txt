@@ -1,6 +1,0 @@
-01-Feb-24 18:02:59 - Logger setup complete.
-01-Feb-24 18:02:59 - Program started.
-01-Feb-24 18:02:59 - Read settings from 'settings.json'.
-01-Feb-24 18:02:59 - Read template from './template.yml'.
-01-Feb-24 18:02:59 - Created default variables at './variables.csv'.
-01-Feb-24 18:02:59 - Read variables from './variables.csv'.

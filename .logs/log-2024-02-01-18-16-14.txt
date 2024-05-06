@@ -1,6 +1,0 @@
-01-Feb-24 18:16:14 - Logger setup complete.
-01-Feb-24 18:16:14 - Program started.
-01-Feb-24 18:16:14 - Read settings from 'settings.json'.
-01-Feb-24 18:16:14 - Read template from './template.yml'.
-01-Feb-24 18:16:14 - Created default CSV at './variables.csv' with 2 columns.
-01-Feb-24 18:16:21 - Program finished. Created 0 folders. Execution time: 6.843820571899414 seconds.

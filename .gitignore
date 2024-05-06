@@ -6,8 +6,7 @@
 *.iml
 out
 gen
-!/.past/company/variables.csv
 
-!/.past/company/template.yml
-
-!/settings.json
+/.past/
+/.navaya/
+/.logs/
